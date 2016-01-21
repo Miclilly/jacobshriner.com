@@ -1,0 +1,350 @@
+
+body, html{
+  min-height:100%;
+  font-family: 'Open Sans', 'futura';
+  color:#000000;
+}
+
+/*index.html*/
+.index{
+  background-image: url("Paintings/LongingLong.jpg");
+  background-color:#45372e;
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:cover;
+  color:#fff;
+}
+
+header{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content:space-between;
+  align-items:baseline;
+  margin top: .50em;
+  margin-left: 1.5em;
+  margin-right:1.5em;
+  text-transform:uppercase;
+}
+
+.index a{
+  text-decoration:none;
+  color:#fff;
+}
+
+ a:hover{
+  opacity:.5;
+}
+
+
+li{
+  display:inline-block;
+  margin: 1em;
+  letter-spacing:.1em;
+  font-size:85%;
+}
+
+h1{
+  letter-spacing:.25em;
+  font-size:210%;
+  font-weight:normal;
+}
+
+ul{
+  list-style-type:none;
+}
+
+a{
+  text-decoration:none;
+  color:#45372e;
+}
+
+main{
+  padding:2em;
+  max-width:1000px;
+  margin:0 auto;
+}
+
+h2{
+  text-transform:uppercase;
+  font-size:95%;
+  font-weight:normal;
+}
+
+
+figure{
+  padding-left:2em;
+  display:flex;
+  flex-flow:column nowrap;
+  float:left;
+
+}
+
+figure img{
+  display:inline-block;
+  padding-bottom: .5em;
+  width:450px;
+
+}
+
+.AboutP{
+  display:flex;
+  flex-flow:column;
+  padding-right:2em;
+}
+
+footer{
+  bottom:0;
+  right:0;
+  left:0;
+  margin-top:1.5em;
+  margin-left: 1.5em;
+  margin-bottom:1em;
+  font-size:80%;
+  display:flex;
+  align-items:flex-start;
+}
+
+.active{
+  text-decoration:underline;
+}
+
+
+.gallery{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:2.5em;
+  margin-left:1.5em;
+  margin-right:1.5em;
+}
+
+.gallery img{
+  margin:.75em;
+}
+
+#formImage{
+  height:500px;
+}
+
+#formDiv{
+  display:-webkit-flex;
+  display: -webkit-box;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  width:800px;
+  margin: 0 auto;
+  margin-top: 2.5em;
+}
+
+#formImage{
+  height:500px;
+}
+
+form input{
+  margin:1em;
+  display:block;
+  border: 1.5px solid #45372e;
+}
+
+ .inputSame{
+  width: 350px;
+  height: 35px;
+  font-size:70%;
+}
+
+.Message{
+  width:350px;
+  height: 100px;
+  border: 1.5px solid #45372e;
+  display:block;
+  margin:1em;
+  font-size:70%;
+}
+
+.Submit{
+  color:#45372e;
+  text-transform:uppercase;
+  float:right;
+  background-color:#fff;
+  height:3em;
+  width: 7em;
+  font-size: 75%;
+}
+
+.form{
+  display:block;
+}
+
+.form > p{
+  text-align:left;
+  display:block;
+  clear:both;
+  margin:1.25em;
+}
+
+
+/*Mobile Design*/
+@media (max-width: 900px){
+  h1{
+    font-size:170%;
+    }
+
+li{
+    font-size:85%;
+}
+}
+
+@media (max-width: 800px){
+  .index{
+    background-image: url("Paintings/LongingResize.jpg");
+}
+
+header{
+  margin:auto;
+  text-align:center;
+  display:block;
+}
+
+h1{
+  font-size:170%;
+  margin-top:.5em;
+  display:block;
+}
+
+ li{
+   margin:1.25em;
+   display:block;
+   font-size:100%;
+ }
+
+ ul{
+   margin:auto;
+   text-align:center;
+   padding-left:0;
+ }
+
+ figure{
+  display:flex;
+  justify-content:center;
+  float:none;
+  padding-left:0;
+ }
+
+ figure img{
+   height:250px;
+   width:250px;
+   margin:auto;
+   align-content:center;
+ }
+
+ .AboutP{
+   display:block;
+   padding-right:1em;
+   padding-left:1em;
+   padding-bottom:1em;
+   margin:auto;
+   align-text:center;
+   clear:both;
+ }
+
+ .gallery img{
+   height:150px;
+   margin-left:.5em;
+   margin-right:.5em;
+}
+
+#formDiv{
+  display:flex;
+  flex-flow:column wrap;
+  align-items:center;
+  width: 80%;
+}
+
+#formImage{
+  height:300px;
+}
+
+form{
+  display:block;
+}
+}
+
+@media (max-width: 500px){
+
+  .gallery img{
+    height:150px;
+    margin-left:.25em;
+    margin-right:.25em;
+}
+
+header{
+  margin:auto;
+  text-align:center;
+  display:block;
+}
+
+h1{
+  font-size:100%;
+  margin-top:.5em;
+  display:block;
+}
+
+ li{
+   margin:1.25em;
+   display:block;
+   font-size:75%;
+ }
+
+ ul{
+   margin:auto;
+   text-align:center;
+   padding-left:0;
+ }
+
+#formImage{
+  display:none;
+}
+}
+
+ @media (max-width: 400px){
+ li{
+   margin:1em;
+   display:block;
+   font-size:75%;
+ }
+
+ figure img{
+   height:150px;
+   width:150px;
+   margin:auto;
+   align-content:center;
+ }
+
+ .gallery img{
+   height:125px;
+   margin-left:.25em;
+   margin-right:.25em;
+}
+
+#formImage{
+  display:none;
+}
+
+.inputSame{
+ width: 250px;
+ height: 35px;
+ font-size:70%;
+}
+
+.Message{
+ width:250px;
+ height: 100px;
+ border: 1.5px solid #45372e;
+ display:block;
+ margin:1em;
+ font-size:70%;
+}
+}
+*/
