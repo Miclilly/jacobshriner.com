@@ -277,6 +277,11 @@ form{
     height:150px;
     margin-left:.25em;
     margin-right:.25em;
+}
+
+.gallery{
+    display:flex;
+    flex-flow:column wrap;
     align-items:center;
 }
 
