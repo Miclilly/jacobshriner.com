@@ -321,16 +321,16 @@ h1{
   flex-flow:column wrap;
   align-items:center;
 }
+
  figure img{
    height:150px;
    width:150px;
-
-
  }
 
  .gallery img{
    height:125px;
-   align-content:center;
+   width:125px;
+   margin: 0 auto;
 }
 
 #formImage{
