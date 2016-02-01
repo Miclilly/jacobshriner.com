@@ -279,12 +279,6 @@ form{
     margin-right:.25em;
 }
 
-.gallery{
-    display:flex;
-    flex-flow:column wrap;
-    align-items:center;
-}
-
 header{
   margin:auto;
   text-align:center;
@@ -362,4 +356,3 @@ form{
 
 }
 }
-*/
