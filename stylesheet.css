@@ -78,7 +78,6 @@ figure{
   flex-flow:column nowrap;
   float:left;
   margin-bottom:1em;
-
 }
 
 figure img{
@@ -86,7 +85,6 @@ figure img{
   padding-bottom: .5em;
   height:450px;
   margin: 0 auto;
-
 }
 
 .AboutP{
@@ -276,7 +274,6 @@ form{
 }
 
 @media (max-width: 500px){
-
   .gallery img{
     height:150px;
     margin-left:.25em;
@@ -359,6 +356,5 @@ form{
  border: 1.5px solid #45372e;
  display:block;
  font-size:70%;
-
 }
 }
