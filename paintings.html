@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheet.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <link href="vendor/css/lightbox.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1><a href="index.html">Jacob Shriner</h1>
+    <h1><a href="index.html">Jacob Shriner</a></h1>
       <nav>
         <ul>
           <li><a href="paintings.html" class="active">Paintings</a></li>
@@ -20,27 +21,28 @@
       </nav>
     </header>
     <div class="gallery">
-      <a href="Paintings/AliceDreams.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/AliceDreamsThumb.jpg" alt="Alice Dreams 30x40"></a>
-      <a href="Paintings/Anxiety.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/AnxietyThumb.jpg" alt="Anxiety 30x24"></a>
-      <a href="Paintings/BeardedSelfPortrait.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/BeardedSelfPortraitThumb.jpg" alt="Bearded Self Portrait 20x16"></a>
-      <a href="Paintings/Journeyman.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/JourneymanThumb.jpg" alt="Journeyman 48x30"></a>
-      <a href="Paintings/LesFleursDuMal.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/LesFluersduMalThumb.jpg" alt="JLes Fluers du Mal 30x24"></a>
-      <a href="Paintings/Longing.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/LongingThumb.jpg" alt="Longing 30x24"></a>
-      <a href="Paintings/ArroganceI.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/ArroganceIThumb.jpg" alt="Arrogance I 14x11"></a>
-      <a href="Paintings/ArroganceII.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/ArroganceIIThumb.jpg" alt="Arrogance II 14x11"></a>
-      <a href="Paintings/Exhaustion.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/ExhaustionThumb.jpg" alt="Exhaustion 30x24"></a>
-      <a href="Paintings/ComeAndSee.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/ComeandSeeThumb.jpg" alt="Come and See 20x20"></a>
-      <a href="Paintings/Melancholia.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/MelancholiaThumb.jpg" alt="Melancholia 48x30"></a>
-      <a href="Paintings/MotherAndSon.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/MotherandSonThumb.jpg" alt="Mother and Son 30x24"></a>
-      <a href="Paintings/PortraitOfAntoninArtaud.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/PortraitofAntoninArtuadThumb.jpg" alt="Portrait of Antonin Artaud 30x20"></a>
-      <a href="Paintings/PortraitOfCharlesBaudelaire.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/PortraitOfCharlesBaudelaireThumb.jpg" alt="Portrait of Charles Baudelaire 20x24"></a>
-      <a href="Paintings/PortraitOfEgonSchiele.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/PortraitOfEgonSchieleThumb.jpg" alt="Portrait of Egon Schiele 30x24"></a>
-      <a href="Paintings/PortraitOfFriedrichNietzsche.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/PortraitOfFriedrichNietzscheThumb.jpg" alt="Portrait of Friedrich Nietzche 24x20"></a>
-      <a href="Paintings/TheOpenShirt.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/TheOpenShirtThumb.jpg" alt="The Open Shirt 40x30"></a>
-      <a href="Paintings/Watchman.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/WatchmanThumb.jpg" alt="Watchman 24x18"></a>
-      <a href="Paintings/WinterField.jpg" onclick="return lightbox(this)"><img src="PaintingsThumb/WinterFieldThumb.jpg" alt="Winter Field 20x24"></a>
+      <a href="Paintings/AliceDreams.jpg" data-lightbox="AliceDreams" data-title="Alice Dreams <br> Oil on canvas, 30&quot x 40&quot"><img src="PaintingsThumb/AliceDreamsThumb.jpg" alt="Alice Dreams 30x40"></a>
+      <a href="Paintings/Anxiety.jpg" data-lightbox="Anxiety" data-title="Anxiety <br> Oil on canvas, 30&quot x 24&quot"><img src="PaintingsThumb/AnxietyThumb.jpg" alt="Anxiety 30x24"></a>
+      <a href="Paintings/BeardedSelfPortrait.jpg" data-lightbox="BeardedSelf" data-title="Bearded Self Portrait <br> Oil on canvas, 20&quot x 16&quot"><img src="PaintingsThumb/BeardedSelfPortraitThumb.jpg" alt="Bearded Self Portrait 20x16"></a>
+      <a href="Paintings/Journeyman.jpg" data-lightbox="Journeyman" data-title="Journeyman <br> Oil on canvas, 48&quot x 30&quot"><img src="PaintingsThumb/JourneymanThumb.jpg" alt="Journeyman 48x30"></a>
+      <a href="Paintings/LesFleursDuMal.jpg" data-lightbox="LesFleursDuMal" data-title="Les Fleurs Du Mal <br> Oil on canvas, 30&quot x 24&quot"><img src="PaintingsThumb/LesFluersduMalThumb.jpg" alt="Les Fluers du Mal 30x24"></a>
+      <a href="Paintings/Longing.jpg" data-lightbox="Longing" data-title="Longing <br> Oil on canvas, 30&quot x 24&quot"><img src="PaintingsThumb/LongingThumb.jpg" alt="Longing 30x24"></a>
+      <a href="Paintings/ArroganceI.jpg" data-lightbox="ArroganceI" data-title="Arrogance I <br> Oil on canvas, 14&quot x 11&quot"><img src="PaintingsThumb/ArroganceIThumb.jpg" alt="Arrogance I 14x11"></a>
+      <a href="Paintings/ArroganceII.jpg" data-lightbox="ArroganceII" data-title="Arrogance II <br> Oil on canvas, 14&quot x 11&quot"><img src="PaintingsThumb/ArroganceIIThumb.jpg" alt="Arrogance II 14x11"></a>
+      <a href="Paintings/Exhaustion.jpg" data-lightbox="Exhaustion" data-title="Exhaustion <br> Oil on canvas, 30&quot x 24&quot"><img src="PaintingsThumb/ExhaustionThumb.jpg" alt="Exhaustion 30x24"></a>
+      <a href="Paintings/ComeAndSee.jpg" data-lightbox="ComeAndSee" data-title="Come and See <br> Oil on canvas, 20&quot x 20&quot"><img src="PaintingsThumb/ComeandSeeThumb.jpg" alt="Come and See 20x20"></a>
+      <a href="Paintings/Melancholia.jpg" data-lightbox="Melancholia" data-title="Melancholia <br> Oil on canvas, 48&quot x 30&quot"><img src="PaintingsThumb/MelancholiaThumb.jpg" alt="Melancholia 48x30"></a>
+      <a href="Paintings/MotherAndSon.jpg" data-lightbox="Motherandson" data-title="Mother and Son <br> Oil on canvas, 30&quot x 24&quot"><img src="PaintingsThumb/MotherandSonThumb.jpg" alt="Mother and Son 30x24"></a>
+      <a href="Paintings/PortraitOfAntoninArtaud.jpg" data-lightbox="PortraitAA" data-title="Portrait of Antonin Artuad <br> Oil on canvas, 30&quot x 20&quot"><img src="PaintingsThumb/PortraitofAntoninArtuadThumb.jpg" alt="Portrait of Antonin Artaud 30x20"></a>
+      <a href="Paintings/PortraitOfCharlesBaudelaire.jpg" data-lightbox="PortraitCB" data-title="Portrait of Charles Baudelaire <br> Oil on canvas, 20&quot x 24&quot"><img src="PaintingsThumb/PortraitOfCharlesBaudelaireThumb.jpg" alt="Portrait of Charles Baudelaire 20x24"></a>
+      <a href="Paintings/PortraitOfEgonSchiele.jpg" data-lightbox="PortaitofEgonSchiele" data-title="Portrait of Egon Schiele <br> Oil on canvas, 30&quot x 24&quot"><img src="PaintingsThumb/PortraitOfEgonSchieleThumb.jpg" alt="Portrait of Egon Schiele 30x24"></a>
+      <a href="Paintings/PortraitOfFriedrichNietzsche.jpg" data-lightbox="PortraitofFriedrich Nietzche" data-title="Portrait of Friedrich Nietzche <br> Oil on canvas, 24&quot x 20&quot"><img src="PaintingsThumb/PortraitOfFriedrichNietzscheThumb.jpg" alt="Portrait of Friedrich Nietzche 24x20"></a>
+      <a href="Paintings/TheOpenShirt.jpg" data-lightbox="OpenShirt" data-title="The Open Shirt <br> Oil on canvas, 40&quot x 30&quot"><img src="PaintingsThumb/TheOpenShirtThumb.jpg" alt="The Open Shirt 40x30"></a>
+      <a href="Paintings/Watchman.jpg" data-lightbox="Watchman" data-title="Watchman <br> Oil on canvas, 24&quot x 18&quot"><img src="PaintingsThumb/WatchmanThumb.jpg" alt="Watchman 24x18"></a>
+      <a href="Paintings/WinterField.jpg" data-lightbox="Winterfield" data-title="Winter Field <br> Oil on canvas, 20&quot x 24&quot"><img src="PaintingsThumb/WinterFieldThumb.jpg" alt="Winter Field 20x24"></a>
     </div>
-  <footer>&copy Jacob Shriner 2016
+  <footer>&copy Jacob Shriner 2016. Site Design by &nbsp;<a href="mailto:michellelilly87@hotmail.com">Michelle Lilly.</a>
   </footer>
+  <script src="vendor/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>

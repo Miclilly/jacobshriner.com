@@ -76,13 +76,14 @@ figure{
   display:flex;
   flex-flow:column nowrap;
   float:left;
+  margin-bottom:1em;
 
 }
 
 figure img{
   display:inline-block;
   padding-bottom: .5em;
-  width:450px;
+  height:450px;
 
 }
 
@@ -100,8 +101,8 @@ footer{
   margin-left: 1.5em;
   margin-bottom:1em;
   font-size:80%;
-  display:flex;
-  align-items:flex-start;
+  display:block;
+  clear:both;
 }
 
 .active{
@@ -125,6 +126,7 @@ footer{
 
 #formImage{
   height:500px;
+  margin-right: 1em;
 }
 
 #formDiv{
@@ -233,8 +235,7 @@ h1{
  }
 
  figure img{
-   height:250px;
-   width:250px;
+   height:300px;
    margin:auto;
    align-content:center;
  }
@@ -323,7 +324,6 @@ h1{
 
  figure img{
    height:150px;
-   width:150px;
  }
 
  .gallery img{
@@ -340,6 +340,7 @@ form{
   display:flex;
   flex-flow:column wrap;
 }
+
 .inputSame{
  width: 250px;
  height: 35px;
