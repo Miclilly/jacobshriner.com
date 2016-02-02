@@ -202,6 +202,7 @@ li{
   .index{
     background-image: url("Paintings/LongingResize.jpg");
     background-attachment:scroll;
+    height: 1000px;
 }
 
 header{
@@ -274,6 +275,9 @@ form{
 }
 
 @media only screen and (max-width: 500px){
+  .index{
+    height:100%;
+  }
     .gallery{
       justify-content:center;
     }
