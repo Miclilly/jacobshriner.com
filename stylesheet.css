@@ -339,6 +339,7 @@ h1{
 form{
   display:flex;
   flex-flow:column wrap;
+  align-items:center;
 }
 
 .inputSame{
