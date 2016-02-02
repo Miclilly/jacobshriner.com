@@ -188,7 +188,7 @@ form input{
 
 
 /*Mobile Design*/
-@media (max-width: 900px){
+@media  only screen and (max-width: 900px){
   h1{
     font-size:170%;
     }
@@ -198,7 +198,7 @@ li{
 }
 }
 
-@media (max-width: 800px){
+@media  only screen and (max-width: 800px){
   .index{
     background-image: url("Paintings/LongingResize.jpg");
     background-attachment:scroll;
@@ -273,7 +273,7 @@ form{
 }
 }
 
-@media (max-width: 500px){
+@media only screen and (max-width: 500px){
   .gallery img{
     height:150px;
     margin-left:.25em;
@@ -309,7 +309,7 @@ h1{
 }
 }
 
- @media (max-width: 400px){
+ @media  only screen and (max-width: 400px){
  li{
    margin:1em;
    display:block;
