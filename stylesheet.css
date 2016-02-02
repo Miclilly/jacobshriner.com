@@ -11,6 +11,7 @@ body, html{
   background-color:#45372e;
   background-repeat:no-repeat;
   background-position:top center;
+  background-attachment:fixed;
   background-size:cover;
   color:#fff;
 }
@@ -201,6 +202,7 @@ li{
 @media (max-width: 800px){
   .index{
     background-image: url("Paintings/LongingResize.jpg");
+    background-attachment:fixed;
 }
 
 header{
@@ -324,6 +326,7 @@ h1{
 
  figure img{
    height:150px;
+   margin: 0 auto;
  }
 
  .gallery img{
