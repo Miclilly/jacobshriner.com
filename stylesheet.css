@@ -274,6 +274,10 @@ form{
 }
 
 @media only screen and (max-width: 500px){
+    .gallery{
+      justify-content:center;
+    }
+
   .gallery img{
     height:150px;
     margin-left:.25em;
