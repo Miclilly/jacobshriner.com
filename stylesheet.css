@@ -130,8 +130,6 @@ footer{
 }
 
 #formDiv{
-  display:-webkit-flex;
-  display: -webkit-box;
   display:flex;
   flex-flow:row wrap;
   justify-content:center;
