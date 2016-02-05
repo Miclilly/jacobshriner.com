@@ -133,7 +133,7 @@ footer{
   display:flex;
   flex-flow:row wrap;
   justify-content:center;
-  width:800px;
+  width:900px;
   margin: 0 auto;
   margin-top: 2.5em;
 }
@@ -175,6 +175,8 @@ form input{
 
 .form{
   display:block;
+  /*after contact form gone*/
+  width: 300px;
 }
 
 .form > p{
@@ -312,6 +314,10 @@ h1{
 
 #formImage{
   display:none;
+}
+
+.form{
+  margin: 0 auto;
 }
 }
 
