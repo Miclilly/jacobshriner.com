@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheet.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <link href="vendor/css/lightbox.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1><a href="index.html">Jacob Shriner</h1>
+    <h1><a href="index.html">Jacob Shriner</a></h1>
       <nav>
         <ul>
           <li><a href="paintings.html" >Paintings</a></li>
@@ -20,24 +21,35 @@
       </nav>
     </header>
     <div class="gallery">
-      <a href="Drawings/AsYouAre.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/AsYouAreThumb.jpg" alt="As You Are I Was Once As I Am You Will Be 12x9"></a>
-      <a href="Drawings/Dostoyevsky.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/DostoyevskyThumb.jpg" alt="Dostoyevsky 12x9"></a>
-      <a href="Drawings/Eternity.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/EternityThumb.jpg" alt="Eternity(A Poem For Edvard Munch) 12x9"></a>
-      <a href="Drawings/Excess.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/ExcessThumb.jpg" alt="Excess and Punishment 12x9"></a>
-      <a href="Drawings/Hypnos.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/HypnosThumb.jpg" alt="Hypnos 12x9"></a>
-      <a href="Drawings/ItGoes.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/ItGoesThumb.jpg" alt="It Goes Like This 12x9"></a>
-      <a href="Drawings/KingNight.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/KingNightThumb.jpg" alt="King Night 12x9"></a>
-      <a href="Drawings/Martyr.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/MartyrThumb.jpg" alt="Martyr 12x9"></a>
-      <a href="Drawings/Ophelia.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/OpheliaThumb.jpg" alt="Ophelia 12x9"></a>
-      <a href="Drawings/PortraitOfES.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/PortraitOfESThumb.jpg" alt="Portrait of Egon Schiele 7x5"></a>
-      <a href="Drawings/PortraitOfES2.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/PortraitOfES2Thumb.jpg" alt="Portrait of Egon Schiele 12x9"></a>
-      <a href="Drawings/PortraitofFN.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/PortraitofFNThumb.jpg" alt="Portrait of Fredrich Nietzsche 12x9"></a>
-      <a href="Drawings/SelfPortraitMovingThroughDark.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/SelfPortraitMovingThroughDarkThumb.jpg" alt="Self Portrait Moving Through Dark 12x9"></a>
-      <a href="Drawings/StudyForAPortraitOfObession.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/StudyForAPortraitOfObsessionThumb.jpg" alt="Study For A Portrait Of Obession 12x9"></a>
-      <a href="Drawings/FlowersOfEvil.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/FlowersOfEvilThumb.jpg" alt="The Flowers of Evil 12x9"></a>
-      <a href="Drawings/WhatSecretsThatAreKept.jpg" onclick="return lightbox(this)"><img src="DrawingsThumb/WhatSecretsThatAreKeptThumb.jpg" alt="What Secrets That Are Kept 12x9"></a>
+      <a href="Drawings/FrancisBaconDrawing.jpg" data-lightbox="gallery" data-title="Portrait of Francis Bacon <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/FrancisBaconDrawingThumb.jpg" alt="Portrait of Francis Bacon"></a>
+      <a href="Drawings/EdvardMunch.jpg" data-lightbox="gallery" data-title="Portrait of Edvard Munch <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/EdvardMunchThumb.jpg" alt="Portrait of Edvard Munch"></a>
+      <a href="Drawings/PassionJoanOfArc.jpg" data-lightbox="gallery" data-title="The Passion of Joan of Arc <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/PassionJoanOfArcThumb.jpg" alt="The Passion of Joan of Arc"></a>
+      <a href="Drawings/MunchII.jpg" data-lightbox="gallery" data-title="Portrait of Edvard Munch II <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/MunchIIThumb.jpg" alt="Portrait of Edvard Munch"></a>
+      <a href="Drawings/Rembrandt.jpg" data-lightbox="gallery" data-title="Portrait of Rembrandt <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/RembrandtThumb.jpg" alt="Portrait of Rembrandt"></a>
+      <a href="Drawings/AsYouAre.jpg" data-lightbox="gallery" data-title="As You Are I Was Once As I am You Will Be <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/AsYouAreThumb.jpg" alt="As You are I Was Once As I Am You Will Be"></a>
+      <a href="Drawings/Dostoyevsky.jpg" data-lightbox="gallery" data-title="Dostoyevsky<br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/DostoyevskyThumb.jpg" alt="Dostoyevsky 12x9"></a>
+      <a href="Drawings/Eternity.jpg" data-lightbox="gallery" data-title="Eternity (A Poem for Edvard Munch) <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/EternityThumb.jpg" alt="Eternity(A Poem For Edvard Munch) 12x9"></a>
+      <a href="Drawings/Excess.jpg" data-lightbox="gallery" data-title="Excess and Punishment <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/ExcessThumb.jpg" alt="Excess and Punishment 12x9"></a>
+      <a href="Drawings/Hypnos.jpg" data-lightbox="gallery" data-title="Hypnos <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/HypnosThumb.jpg" alt="Hypnos 12x9"></a>
+      <a href="Drawings/ItGoes.jpg" data-lightbox="gallery" data-title="It Goes Like This <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/ItGoesThumb.jpg" alt="It Goes Like This 12x9"></a>
+      <a href="Drawings/KingNight.jpg" data-lightbox="gallery" data-title="King Night <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/KingNightThumb.jpg" alt="King Night 12x9"></a>
+      <a href="Drawings/Martyr.jpg" data-lightbox="gallery" data-title="Martyr <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/MartyrThumb.jpg" alt="Martyr 12x9"></a>
+      <a href="Drawings/Ophelia.jpg" data-lightbox="gallery" data-title="Ophelia <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/OpheliaThumb.jpg" alt="Ophelia 12x9"></a>
+      <a href="Drawings/PortraitOfES.jpg" data-lightbox="gallery" data-title="Portrait of Egon Schiele <br> Pen and ink on paper, 7&quot x 5&quot"><img src="DrawingsThumb/PortraitOfESThumb.jpg" alt="Portrait of Egon Schiele 7x5"></a>
+      <a href="Drawings/PortraitofES2.jpg" data-lightbox="gallery" data-title="Portrait of Egon Schiele <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/PortraitofES2Thumb.jpg" alt="Portrait of Egon Schiele 12x9"></a>
+      <a href="Drawings/PortraitofFN.jpg" data-lightbox="gallery" data-title="Portrait of Fredrich Nietzsche <br> Pen and ink on paper, 12&quot x 9&quot" ><img src="DrawingsThumb/PortraitofFNThumb.jpg" alt="Portrait of Fredrich Nietzsche 12x9"></a>
+      <a href="Drawings/SelfPortraitMovingThroughDark.jpg" data-lightbox="gallery" data-title="Self Portrait Moving Through the Dark <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/SelfPortraitMovingThroughDarkThumb.jpg" alt="Self Portrait Moving Through Dark 12x9"></a>
+      <a href="Drawings/StudyForAPortraitOfObsession.jpg" data-lightbox="gallery" data-title="Study for a Portrait of Obsession <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/StudyForAPortraitOfObsessionThumb.jpg" alt="Study For A Portrait Of Obession 12x9"></a>
+      <a href="Drawings/FlowersOfEvil.jpg" data-lightbox="gallery" data-title=" The Flowers of Evil <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/FlowersOfEvilThumb.jpg" alt="The Flowers of Evil 12x9"></a>
+      <a href="Drawings/WhatSecretsThatAreKept.jpg" data-lightbox="gallery" data-title="What Secrets That Are Kept <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/WhatSecretsThatAreKeptThumb.jpg" alt="What Secrets That Are Kept 12x9"></a>
+      <a href="Drawings/He.jpg" data-lightbox="gallery" data-title="He <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/HeThumb.jpg" alt="He 12x9"></a>
+      <a href="Drawings/She.jpg" data-lightbox="gallery" data-title="She <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/SheThumb.jpg" alt="She 12x9"></a>
+      <a href="Drawings/Meditations.jpg" data-lightbox="gallery" data-title="Meditations  <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/MeditationsThumb.jpg" alt="Meditations 12x9"></a>
+      <a href="Drawings/PortraitofJeanMichelBasquiat.jpg" data-lightbox="gallery" data-title="Portrait of Jean-Michel Basquiat <br> Pen and ink on paper, 7&quot x 5&quot"><img src="DrawingsThumb/PortraitofJMBThumb.jpg" alt="Portrait of Jean-Michel Basquiat 7x5"></a>
+      <a href="Drawings/SelfPortraitWithBlackEye.jpg" data-lightbox="gallery" data-title="Self Portrait With Black Eye <br> Pen and ink on paper, 12&quot x 9&quot"><img src="DrawingsThumb/SelfPortraitWithBlackEyeThumb.jpg" alt="Self Portrait with Black Eye 12x9"></a>
     </div>
-  <footer>&copy Jacob Shriner 2016
+  <footer>&copy Jacob Shriner 2016. Site design by &nbsp;<a href="mailto:michellelilly87@hotmail.com">Michelle Lilly.</a>
   </footer>
+  <script src="vendor/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
